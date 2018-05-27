@@ -7,27 +7,27 @@ case "$1" in
 		;;
 	"datagrip")
 		echo -e "\033[32mdatagrip starting ... \033[0m"
-		nohup /home/liuye/.mapps/dataGrip-2018.1.2/bin/datagrip.sh > /home/liuye/.mapps/launchpad/out/datagrip.txt 2>&1 &
+		nohup /home/liuye/.mapps/datagrip/bin/datagrip.sh > /home/liuye/.mapps/launchpad/out/datagrip.txt 2>&1 &
 		;;
 	"goland")
 		echo -e "\033[32mgoland starting ... \033[0m"
-		nohup /home/liuye/.mapps/goLand-2018.1.2/bin/goland.sh > /home/liuye/.mapps/launchpad/out/goLand.txt 2>&1 &
+		nohup /home/liuye/.mapps/goland/bin/goland.sh > /home/liuye/.mapps/launchpad/out/goLand.txt 2>&1 &
 		;;
 	"pycharm")
 		echo -e "\033[32mpycharm starting ... \033[0m"
-		nohup /home/liuye/.mapps/pycharm-2018.1.2/bin/pycharm.sh > /home/liuye/.mapps/launchpad/out/pycharm.txt 2>&1 &
+		nohup /home/liuye/.mapps/pycharm/bin/pycharm.sh > /home/liuye/.mapps/launchpad/out/pycharm.txt 2>&1 &
 		;;
 	"clion")
 		echo -e "\033[32mclion starting ... \033[0m"
-		nohup /home/liuye/.mapps/clion-2018.1.2/bin/clion.sh > /home/liuye/.mapps/launchpad/out/clion.txt 2>&1 &
+		nohup /home/liuye/.mapps/clion/bin/clion.sh > /home/liuye/.mapps/launchpad/out/clion.txt 2>&1 &
 		;;
 	"idea")
 		echo -e "\033[32midea starting ... \033[0m"
-		nohup /home/liuye/.mapps/idea-IU-181.4668.68/bin/idea.sh > /home/liuye/.mapps/launchpad/out/idea.txt 2>&1 &
+		nohup /home/liuye/.mapps/idea-IU/bin/idea.sh > /home/liuye/.mapps/launchpad/out/idea.txt 2>&1 &
 		;;
 	"webstorm")
 		echo -e "\033[32mwebstorm starting ... \033[0m"
-		nohup /home/liuye/.mapps/webStorm-181.4668.60/bin/webstorm.sh > /home/liuye/.mapps/launchpad/out/webstorm.txt 2>&1 &
+		nohup /home/liuye/.mapps/webstorm/bin/webstorm.sh > /home/liuye/.mapps/launchpad/out/webstorm.txt 2>&1 &
 		;;
 	"postman")
 		echo -e "\033[32mpostman starting ... \033[0m"
