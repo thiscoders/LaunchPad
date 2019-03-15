@@ -3,35 +3,35 @@
 case "$1" in
 	"android")
 		echo -e "\033[32mandroid studio starting ... \033[0m"
-		nohup /home/ye/.mapps/android-studio/bin/studio.sh > /home/ye/.mapps/launchpad/out/studio.txt 2>&1 &
+		nohup /home/ye/.mapps/android-studio/bin/studio.sh > /home/ye/.mapps/launch_pad/out/studio.log 2>&1 &
 		;;
 	"datagrip")
 		echo -e "\033[32mdatagrip starting ... \033[0m"
-		nohup /home/ye/.mapps/datagrip/bin/datagrip.sh > /home/ye/.mapps/launchpad/out/datagrip.txt 2>&1 &
+		nohup /home/ye/.mapps/datagrip/bin/datagrip.sh > /home/ye/.mapps/launch_pad/out/datagrip.log 2>&1 &
 		;;
 	"goland")
 		echo -e "\033[32mgoland starting ... \033[0m"
-		nohup /home/ye/.mapps/goland/bin/goland.sh > /home/ye/.mapps/launchpad/out/goLand.txt 2>&1 &
+		nohup /home/ye/.mapps/goland/bin/goland.sh > /home/ye/.mapps/launch_pad/out/goLand.log 2>&1 &
 		;;
 	"pycharm")
 		echo -e "\033[32mpycharm starting ... \033[0m"
-		nohup /home/ye/.mapps/pycharm/bin/pycharm.sh > /home/ye/.mapps/launchpad/out/pycharm.txt 2>&1 &
+		nohup /home/ye/.mapps/pycharm/bin/pycharm.sh > /home/ye/.mapps/launch_pad/out/pycharm.log 2>&1 &
 		;;
 	"clion")
 		echo -e "\033[32mclion starting ... \033[0m"
-		nohup /home/ye/.mapps/clion/bin/clion.sh > /home/ye/.mapps/launchpad/out/clion.txt 2>&1 &
+		nohup /home/ye/.mapps/clion/bin/clion.sh > /home/ye/.mapps/launch_pad/out/clion.log 2>&1 &
 		;;
 	"idea")
 		echo -e "\033[32midea starting ... \033[0m"
-		nohup /home/ye/.mapps/idea-IU/bin/idea.sh > /home/ye/.mapps/launchpad/out/idea.txt 2>&1 &
+		nohup /home/ye/.mapps/idea-IU/bin/idea.sh > /home/ye/.mapps/launch_pad/out/idea.log 2>&1 &
 		;;
 	"webstorm")
 		echo -e "\033[32mwebstorm starting ... \033[0m"
-		nohup /home/ye/.mapps/webstorm/bin/webstorm.sh > /home/ye/.mapps/launchpad/out/webstorm.txt 2>&1 &
+		nohup /home/ye/.mapps/webstorm/bin/webstorm.sh > /home/ye/.mapps/launch_pad/out/webstorm.log 2>&1 &
 		;;
 	"postman")
 		echo -e "\033[32mpostman starting ... \033[0m"
-		nohup /home/ye/.mapps/Postman/Postman > /home/ye/.mapps/launchpad/out/postman.txt 2>&1 &
+		nohup /home/ye/.mapps/Postman/Postman > /home/ye/.mapps/launch_pad/out/postman.log 2>&1 &
 		;;
 	*)
 
