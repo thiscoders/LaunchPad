@@ -29,13 +29,17 @@ case "$1" in
 		echo -e "\033[32mwebstorm starting ... \033[0m"
 		nohup /home/ye/.mapps/webstorm/bin/webstorm.sh > /home/ye/.mapps/launch_pad/out/webstorm.log 2>&1 &
 		;;
+	"clashy")
+		echo -e "\033[32mClashy starting ... \033[0m"
+		nohup /home/ye/.mapps/clashy/Clashy-0.1.16.AppImage > /home/ye/.mapps/launch_pad/out/clashy.log 2>&1 &
+		;;
 	"postman")
 		echo -e "\033[32mpostman starting ... \033[0m"
 		nohup /home/ye/.mapps/Postman/Postman > /home/ye/.mapps/launch_pad/out/postman.log 2>&1 &
 		;;
 	*)
 
-		echo -e "\033[31minput support: android datagrip goland pycharm clion idea webstorm postman \033[0m"
+		echo -e "\033[31minput support: android datagrip goland pycharm clion idea webstorm clashy postman \033[0m"
 		;;
 
 esac
